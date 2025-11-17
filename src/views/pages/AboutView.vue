@@ -62,7 +62,7 @@
   <div class="border w-[90%] mx-auto opacity-50"></div>
 
   <div class="bg-white py-[16px] px-[8px] sm:px-[18px] md:px-[70px]">
-    <h2 class="text-main font-[800] text-[16px] md:text-[24px] lg:text-[50px] leading-tight md:leading-[65.1px] py-[16px] text-center">PENGURUS PUSAT HARISAN IKATAN ORANGTUA MAHASISWA - INSTITUT TEKNOLOGI BANDUNG PERIODE 2023 - 2027</h2>
+    <h2 class="text-main font-[800] text-[16px] md:text-[24px] lg:text-[50px] leading-tight md:leading-[65.1px] py-[16px] text-center">PENGURUS PUSAT HARIAN IKATAN ORANGTUA MAHASISWA - INSTITUT TEKNOLOGI BANDUNG PERIODE 2023 - 2027</h2>
     <div class="flex justify-center items-center">
       <img :src="require('@/assets/image/struktur-organisasi.png')" alt="Struktur Organisasi" class="w-full object-cover p-0 lg:p-20">
     </div>
