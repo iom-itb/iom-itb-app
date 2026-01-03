@@ -50,6 +50,11 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
       <div class="text-center">
         <hr class="blue mb-4">
+        <iframe width="100%" height="180px" class="embed-responsive-item" src="https://www.youtube.com/embed/kAnaKIZxwE8?si=e6ICwmu1a5erNizZ?rel=0&amp;autoplay=1&amp;mute=1" allowfullscreen></iframe>
+      </div>
+
+      <div class="text-center">
+        <hr class="blue mb-4">
         <iframe width="100%" height="180px" class="embed-responsive-item" src="https://www.youtube.com/embed/Rp6d9zQJsjk?si" allowfullscreen></iframe>
       </div>
       <div class="text-center">
