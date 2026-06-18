@@ -1,8 +1,8 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 import { createMetaManager } from 'vue-meta';
-import router from './router';
-import store from './store';
+import router from './router/index.js';
+import store from './store/index.js';
 import ApiService from "@/store/api.service";
 import './css/style.css';
 

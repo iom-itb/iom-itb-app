@@ -1,0 +1,20 @@
+name: Force Merge Branch
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to merge into main'
+        required: true
+        default: 'sync-with-fork-customizations'
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: DerTimonius/merge-branches@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branches: main
+          head: ${{ github.event.inputs.branch }}
+          force: true
+          commit_message: 'Force merge ${{ github.event.inputs.branch }} into main'
